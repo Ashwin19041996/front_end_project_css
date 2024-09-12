@@ -1,0 +1,398 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#firstsection{
+    height: 100vh;
+    width: 100%;
+    background-image: url('coverimage.jpg');
+    position: relative;
+     /* background-repeat: no-repeat; */
+     background-size: cover;
+     filter: brightness(70%);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+
+
+
+#imagediv{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+#coverimage{
+    
+    /* clip: rect(0px,1920px ,1010px, 0px) ; */
+     height: 100vh;
+    width: 100%;
+    filter: brightness(50%);
+    
+    
+   
+}
+
+#navbar{
+    height: 55px;
+    width: 97%;
+    background-color: #1a2456;
+    display:flex ;
+    flex-direction: row;
+    color: #eeb8a7;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+   
+    
+    
+    
+    
+    
+    
+    
+    border-radius: 3px;
+    
+}
+#textdiv{
+    height: 70vh;
+    width: 40vw;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eeb8a7;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+    
+    
+   
+}
+
+#arrowdown{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    background-color: transparent;
+}
+
+#startinglogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#startinglogo img{
+    color: #eeb8a7;
+}
+
+#navbar #startinglogo{
+    position: absolute;
+    left: 20px;
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 20px;
+    align-items: center;
+    
+}
+
+#navbar li{
+    list-style: none;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 60;
+    font-size: smaller;
+    margin: 0 7px 0 7px;
+   
+
+    
+    
+    
+}
+
+
+
+#productscontainer1{
+width: 100%;
+height: 1400px;
+padding: 45px 0 0;
+background-color:#f0efed;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.insideproductcontainer{
+
+    width:1120px ;
+    height: 371.66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+.insideproductcontainer img{
+  width: 557.5px;
+  height: 371.67px;
+  object-fit: cover;
+  opacity: 1;
+  margin: 0px 0px 22.5px;
+  padding: 0px 7.5px;
+}
+
+#keyboard1{
+    width: 1115px;
+    margin-top: 10px;
+}
+
+.insideproductdetails{
+    width:1120px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.h3pinside{
+    width: 557.5px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1a2456;
+    
+
+}
+
+
+
+
+/* width: 467.5px;
+height: 311.67px;
+width:950px ;
+    height: 1304.47px; */
+
+    #createyourconsole img{
+        
+        width: 100%;
+        height: 506.25px;
+    }
+
+    #thirdsection{
+        width: 100%;
+        height: 1738.64px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 45px;
+        
+
+    }
+
+    #threeimages{
+        width: 1144.98px;
+        height: 336.66px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #threeimages img{
+        width: 336.66px;
+        height: 336.66px;
+        object-fit: cover;
+        opacity: 1;
+        padding-left: 22.5px;
+        padding-right: 22.5px;
+       
+    }
+
+    #describeitem{
+        height: 60px;
+        width: 1144.98px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+    }
+
+    #describeitem .insidedesc{
+        height: 60px;
+        width: 336.66px;
+        padding: 0 22.5px 0 22.5px; 
+        color: #525d99 ;
+        margin-top: 2px;
+        font-family: "Prompt", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        
+        
+    }
+
+    #footer1{
+        width: 100%;
+        height: 57.38px;
+        background-color: #c4beb6;
+        position: fixed;
+        bottom: 0px;
+       
+    }
+
+    #footer2{
+        /* 266.6px; */
+        width: 100%;
+        height: 323.98px;
+        background-color: #1a2456;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+        
+        
+        
+    }
+
+    #footer2 #insidefooter{
+        /* 256.48px */
+           height:233.98px ;
+           width: 95.2%;
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+           padding: 45px 2.4%;
+    }
+
+    .infoot{
+        width: 160px;
+        height: 211.48px;
+        padding: 0 20px 22.5px 20px;
+        color: #eeb8a7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infootL{
+        width: 360px;
+        height: 211.48px;
+        padding: 0 20px 22.5px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    #insidefooter1{
+        height: 27.38px;
+        width: 99%;
+        padding: 15px 0.5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footerdiv{
+        height:323.98px ;
+        width: 100%;
+        
+
+    }
+
+    #footerbutton{
+        
+        width: 80px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: #1a2456;
+        color: white;
+        font-weight: 100;
+    }
+
+    .navbarlinks:hover{
+        text-decoration: underline;
+        
+    }
+
+    .insideproductcontainer #transitimg {
+        position: relative;
+        width: 572.5px;
+        height: 371.66px;
+        
+    }
+
+    .insideproductcontainer #transitimg .img234{
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition-duration: 2s;
+    }
+
+    .insideproductcontainer #transitimg:hover .img234{
+        opacity: 1;
+    }
+
+    #threeimages #transitimg1 {
+        position: relative;
+        width: 381.66px;
+        height: 336.66px;
+    }
+
+    #threeimages #transitimg1 .threeimg234{
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition-duration: 2s;
+
+
+    }
+
+    #threeimages #transitimg1:hover .threeimg234{
+        opacity: 1;
+    }
+
+
+
+    
+
+        
+    
+
+    
+    
+
+    
+    /* 1346.64
+    1738.64 */
